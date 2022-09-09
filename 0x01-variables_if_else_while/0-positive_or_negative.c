@@ -1,8 +1,9 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/* Positive anything is better than negative nothing */
 
-/* betty style doc for function main goes there */
+/* program assign a random number to the variable n each time it is executed */
 int main(void)
 {
 	int n;
