@@ -2,8 +2,8 @@
 
 void print_alphabet(void)
 {
-	char i;
-	int a;
+        int a,i;
+	
 	for (a = 1; a <= 10; a++)
 	  {
 	for (i = 'a'; i <= 'z'; i++)
