@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit: verification whwther integer is a digit
+ * _isdigit - verification whwther integer is a digit
  * @c: integer to be verified
  * Return: 1 on suceess 0 on failure
 */
