@@ -3,7 +3,7 @@
 /**
  * print_numbers - prints integers
  *@i: integer
- * Return: 0 on success
+ * Return: void
  *
  */
 
@@ -17,5 +17,4 @@ void print_numbers(void)
 	_putchar(i);
 	}
 	_putchar('/n');
-
 }
