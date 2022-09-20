@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * puts_half - main function
- * @str: contain string
- * description:  prints half of a string
- * return: 0 on success
+ * puts2 - prints every other character of a string
+ * @str: the string to check
+ *
+ * Return: void
  */
-
-void puts_half(char *str)
+void puts2(char *str)
 {
-int i = 0;
+	int i = 0;
 
 	while (str[i] != '\0')
 	{
