@@ -5,7 +5,7 @@
  * description: appends the src string to the dest string
  * @dest: string to appended
  * @src: string to append
- * return: 0 on success
+ * Return: 0 on success
  */
 
 char *_strcat(char *dest, char *src)
