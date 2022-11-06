@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - function that reads a text file and prints it 
+ * read_textfile - function that reads a text file and prints it
  * to the POSIX standard output
  * @filename: name of the file
  * @letters: number of letter it should print
@@ -39,7 +39,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	res_write = write(STDOUT_FILENO, buf, res_read);
 	if (res_write == -1 || res_read != res_write)
 	{
-		free (buf);
+		free(buf);
 		return (0);
 	}
 	free(buf);
